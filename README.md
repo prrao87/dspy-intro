@@ -1,4 +1,4 @@
-# DSPy Financial News Extraction Tutorial
+# DSPy: Intro tutorial
 
 This project demonstrates how to build an information extraction system using [DSPy](https://dspy.ai). We'll extract structured outputs from financial news articles, specifically identifying merger and acquisition deals and their associated information. The goal is to give an introduction to DSPy's core abstractions:
 signatures, modules and optimizers to those who are coming from traditional systems that rely on

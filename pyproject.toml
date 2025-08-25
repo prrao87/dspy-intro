@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dspy>=3.0.1",
+    "polars>=1.32.3",
     "python-dotenv>=1.1.1",
 ]

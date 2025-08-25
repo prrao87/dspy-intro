@@ -1,2 +1,3 @@
-# dspy-intro
-Code for intro to DSPy blog post
+# Introduction to DSPy
+
+Code for intro to DSPy blog post.

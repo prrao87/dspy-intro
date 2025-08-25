@@ -1,0 +1,222 @@
+{
+  "classifier": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "Elevra: ‘A defining moment in North American lithium’\nThe company to be created through the merger of ASX-listed Sayona Mining and Piedmont Lithium will be named Elevra Lithium, subject to Sayona shareholder approval. Originally announced in November 2024, the merger is set to create the largest hard-rock lithium producer in the US. The transaction will result in an approximate 50:50 equity holding for Sayona and Piedmont shareholders on a fully diluted basis following the deal’s closing, which is expected in the first half of 2025.",
+        "article_type": "merger"
+      },
+      {
+        "augmented": true,
+        "text": "Newcrest Mining completes acquisition of Pretium Resources\nAustralia’s Newcrest Mining has closed the acquisition of Pretium Resources, which owns the Brucejack mine in the Golden Triangle region of British Columbia, Canada. Last November, Newcrest Mining had agreed to acquire the common shares it did not own in Pretium for $2.8bn (C$3.5bn) through a Canadian plan of arrangement. A high-grade gold mine, Brucejack commenced commercial production in 2017.",
+        "article_type": "acquisition"
+      },
+      {
+        "augmented": true,
+        "text": "Why Gold Road rejected Gold Fields’ $3.3bn takeover bid\nGold Road Resources has rejected an unsolicited takeover proposal from Gold Fields, its 50:50 joint venture partner for the Gruyere gold mine in Western Australia. The offer was received on March 7 and, if accepted, would have involved Gold Fields acquiring 100 per cent of the shares on issue in Gold Road via a scheme of arrangement for $3.05 per share, valuing Gold Road at $3.3 billion. This offer comprised $2.27 cash per share and a variable portion equal to the value of Gold Road’s shareholding in De Grey Mining.",
+        "article_type": "other"
+      },
+      {
+        "augmented": true,
+        "text": "Karora says ‘yes’ to $3.4b Westgold merger\nKarora Resources shareholders have almost unanimously voted in favour of the company’s merger with Westgold. Over 99 per cent of votes recorded approved the merger, which will see Westgold takes its place as a top five Australian gold producer. Toronto-based Karora chair and chief executive officer Pail Andre Huet announced the company’s approval late last week.“The approval by approximately 99 per cent of the votes cast on the resolutions regarding the proposed merger transaction with Westgold Resources, along with receipt of Foreign Investment Review Board approval, represent two important milestones towards the closing of this transaction,” he said.“We thank Karora shareholders for their overwhelming support of the combination of Westgold and Karora to create a dual ASX and TSX listed top five Australian gold producer.”Westgold managing director and chief executive officer Wayne Bramwell thanked Karora shareholders for their support.“The overwhelming support for this merger shown by Karora shareholders confirms the independently verified value and the compelling commercial rationale behind this transaction,” he said.“With the integration of the Karora assets, the expanded Westgold will have strategic footprints across two of Western Australia’s most prolific goldfields.“With the integration of the Karora team we create an agile Australian gold mining powerhouse that is focused on free cash generation and shareholder returns.”All that’s remains now is for Westgold to obtain a final order from the Ontario Superior Court of Justice, the hearing for which is expected on July 24.",
+        "article_type": "merger"
+      },
+      {
+        "augmented": true,
+        "text": "Ramelius to acquire Spartan for $2.4bn\nRamelius Resources is set to acquire the remaining Spartan Resources shares it does not own for approximately $2.4 billion. Under the binding transaction implementation deed, Ramelius will pay $0.25 in cash and 0.6957 Ramelius shares for each Spartan share, with an implied value of $1.78 per Spartan share. Ramelius currently holds a 19.9 per cent shareholding in Spartan.",
+        "article_type": "acquisition"
+      },
+      {
+        "augmented": true,
+        "text": "Northern Star’s $5 billion play for De Grey\nNorthern Star Resources is set to acquire De Grey Mining, owner of one of the world’s largest undeveloped gold projects, for approximately $5 billion. Under the terms of the scheme implementation deed, De Grey shareholders will be entitled to receive 0.119 new Northern Star shares for each De Grey share held at the scheme’s record date. This represents an implied offer price of $2.08 per De Grey share.",
+        "article_type": "acquisition"
+      },
+      {
+        "augmented": true,
+        "text": "Meet the world’s third largest lithium supplier\nRio Tinto has finalised its $US6.7 billion ($10.5 billion) acquisition of Arcadium Lithium, positioning the company as a leading lithium supplier. Following approval from the Royal Court of Jersey, Rio Tinto is now the parent company of Arcadium, which will be renamed to Rio Tinto Lithium. Arcadium has been delisted from the ASX and New York Stock Exchange.",
+        "article_type": "acquisition"
+      },
+      {
+        "text": "Pilbara Minerals open to ‘great’ acquisition opportunities\nPilbara Minerals, Australia’s biggest independent lithium producer, said on Wednesday it is looking at acquisitions to grow but putting money back into existing assets would come first. “We are considering and looking at inorganic growth opportunities but we’re in no rush and we won’t grow for growth’s sake but if there’s a great opportunity … we’re up for that,” CEO Dale Henderson said during the Macquarie Australia Conference. Pilbara Minerals hired an M&A banker as its chief development officer around a year ago, saying at the time it was in the very early stages of considering acquisitions for growth. Since then, lithium prices have bottomed, while BHP’s $39 billion offer for Anglo American has underscored keen interest on the part of miners in boosting exposure to metals critical to the energy transition. That said, Australia’s mining barons Gina Rinehart and Chris Ellison have snapped up blocking stakes in many of the country’s promising lithium developers, making the domestic landscape for consolidation more complex.",
+        "article_id": 8,
+        "expected_output": {
+          "article_id": 8,
+          "article_type": "other"
+        }
+      }
+    ],
+    "signature": {
+      "instructions": "Analyze the following news article and classify it according to whether it's a \"Merger\" or \"Acquisition\".\nIf it mentions a potential or failed deal, classify it as \"Other\".",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "${text}"
+        },
+        {
+          "prefix": "Article Type:",
+          "description": "${article_type}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "merger_extractor": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "Elevra: ‘A defining moment in North American lithium’\nThe company to be created through the merger of ASX-listed Sayona Mining and Piedmont Lithium will be named Elevra Lithium, subject to Sayona shareholder approval. Originally announced in November 2024, the merger is set to create the largest hard-rock lithium producer in the US. The transaction will result in an approximate 50:50 equity holding for Sayona and Piedmont shareholders on a fully diluted basis following the deal’s closing, which is expected in the first half of 2025. Now the merged entity has been named, nominees for the board have been announced. The Elevra Lithium board will initially comprise eight members, including four directors to be appointed by Sayona and four directors to be appointed by Piedmont Lithium.",
+        "num_sentences": 5,
+        "merger_info": {
+          "article_id": 1,
+          "company_1": "Sayona Mining",
+          "company_1_ticker": [
+            "ASX"
+          ],
+          "company_2": "Piedmont Lithium",
+          "company_2_ticker": null,
+          "merged_entity": "Elevra Lithium",
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "merger"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Karora says ‘yes’ to $3.4b Westgold merger\nKarora Resources shareholders have almost unanimously voted in favour of the company’s merger with Westgold. Over 99 per cent of votes recorded approved the merger, which will see Westgold takes its place as a top five Australian gold producer. Toronto-based Karora chair and chief executive officer Pail Andre Huet announced the company’s approval late last week.“The approval by approximately 99 per cent of the votes cast on the resolutions regarding the proposed merger transaction with Westgold Resources, along with receipt of Foreign Investment Review Board approval, represent two important milestones towards the closing of this transaction,” he said.“We thank Karora shareholders for their overwhelming support of the combination of Westgold and Karora to create a dual ASX and TSX listed top five Australian gold producer.”Westgold managing director and chief executive officer Wayne Bramwell thanked Karora shareholders for their support.“The overwhelming support for this merger shown by Karora shareholders confirms the independently verified value and the compelling commercial rationale behind this transaction,” he said.“With the integration of the Karora assets, the expanded Westgold will have strategic footprints across two of Western Australia’s most prolific goldfields.“With the integration of the Karora team we create an agile Australian gold mining powerhouse that is focused on free cash generation and shareholder returns.”All that’s remains now is for Westgold to obtain a final order from the Ontario Superior Court of Justice, the hearing for which is expected on July 24. If the merger is implemented, Westgold will take ownership over Karora’s Australian Beta Hunt and Higginsville gold mines, both high-performing assets nestled in the same region as Westgold’s iconic Bluebird and Great Fingall mines. Westgold will also own the Lakewood gold mill near Kalgoorlie..",
+        "num_sentences": 5,
+        "merger_info": {
+          "article_id": 4,
+          "company_1": "Karora Resources",
+          "company_1_ticker": [],
+          "company_2": "Westgold",
+          "company_2_ticker": [],
+          "merged_entity": null,
+          "deal_amount": "3.4b",
+          "deal_currency": "Unknown",
+          "article_type": "merger"
+        }
+      },
+      {
+        "text": "Pilbara Minerals open to ‘great’ acquisition opportunities\nPilbara Minerals, Australia’s biggest independent lithium producer, said on Wednesday it is looking at acquisitions to grow but putting money back into existing assets would come first. “We are considering and looking at inorganic growth opportunities but we’re in no rush and we won’t grow for growth’s sake but if there’s a great opportunity … we’re up for that,” CEO Dale Henderson said during the Macquarie Australia Conference. Pilbara Minerals hired an M&A banker as its chief development officer around a year ago, saying at the time it was in the very early stages of considering acquisitions for growth. Since then, lithium prices have bottomed, while BHP’s $39 billion offer for Anglo American has underscored keen interest on the part of miners in boosting exposure to metals critical to the energy transition. That said, Australia’s mining barons Gina Rinehart and Chris Ellison have snapped up blocking stakes in many of the country’s promising lithium developers, making the domestic landscape for consolidation more complex.",
+        "article_id": 8,
+        "expected_output": {
+          "article_id": 8,
+          "article_type": "other"
+        }
+      }
+    ],
+    "signature": {
+      "instructions": "Extract merger information about companies from the given text.",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "${text}"
+        },
+        {
+          "prefix": "Merger Info:",
+          "description": "${merger_info}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "acquisition_extractor": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "Newcrest Mining completes acquisition of Pretium Resources\nAustralia’s Newcrest Mining has closed the acquisition of Pretium Resources, which owns the Brucejack mine in the Golden Triangle region of British Columbia, Canada. Last November, Newcrest Mining had agreed to acquire the common shares it did not own in Pretium for $2.8bn (C$3.5bn) through a Canadian plan of arrangement. A high-grade gold mine, Brucejack commenced commercial production in 2017. Newcrest managing director and CEO Sandeep Biswas said: “Through this acquisition and the continued development of our outstanding organic growth pipeline, Newcrest’s base case gold production is expected to remain strong until at least 2030, and we have a range of further upside opportunities being progressed across the portfolio. This production profile is also expected to drive a major reduction in all-in sustaining costs, which makes Newcrest unique in the industry.”  The firm stated that it has planned a three-phase transformation programme to boost the long-term potential and value of the Brucejack mine and the associated district.",
+        "num_sentences": 5,
+        "acquisition_info": {
+          "article_id": 2,
+          "parent_company": "Newcrest Mining",
+          "parent_company_ticker": [],
+          "child_company": "Pretium Resources",
+          "child_company_ticker": [],
+          "deal_amount": "2.8bn",
+          "deal_currency": "USD",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Ramelius to acquire Spartan for $2.4bn\nRamelius Resources is set to acquire the remaining Spartan Resources shares it does not own for approximately $2.4 billion. Under the binding transaction implementation deed, Ramelius will pay $0.25 in cash and 0.6957 Ramelius shares for each Spartan share, with an implied value of $1.78 per Spartan share. Ramelius currently holds a 19.9 per cent shareholding in Spartan. The scheme consideration represents a 11.3 per cent premium to Spartan’s last closing share price of $1.60 per share on March 14 and 27.5 per cent of Spartan’s 30-day volume weighted average price of $1.40. Spartan is currently developing the Dalgaranga gold project in Western Australia, which comprises a fully developed gold mining operation, a carbon-in-leach processing facility, a camp and airstrip, and an extensive landholding with potential for new gold discoveries.",
+        "num_sentences": 5,
+        "acquisition_info": {
+          "article_id": 5,
+          "parent_company": "Ramelius Resources",
+          "parent_company_ticker": [],
+          "child_company": "Spartan Resources",
+          "child_company_ticker": [],
+          "deal_amount": "$2.4bn",
+          "deal_currency": "USD",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Northern Star’s $5 billion play for De Grey\nNorthern Star Resources is set to acquire De Grey Mining, owner of one of the world’s largest undeveloped gold projects, for approximately $5 billion. Under the terms of the scheme implementation deed, De Grey shareholders will be entitled to receive 0.119 new Northern Star shares for each De Grey share held at the scheme’s record date. This represents an implied offer price of $2.08 per De Grey share. The scheme consideration represents a 37.1 per cent premium to De Grey’s last closing share price of $1.52 per share on November 29. De Grey is currently developing the Hemi gold project in the Pilbara region of Western Australia, which has a mineral resource estimate of 264 million tonnes at 1.3 grams per tonne of gold for 11.2 million ounces (Moz) and is forecasted to produce 530,000 ounces per annum over its first 10 years.",
+        "num_sentences": 5,
+        "acquisition_info": {
+          "article_id": 6,
+          "parent_company": "Northern Star Resources",
+          "parent_company_ticker": [],
+          "child_company": "De Grey Mining",
+          "child_company_ticker": [],
+          "deal_amount": "$5 billion",
+          "deal_currency": "USD",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Meet the world’s third largest lithium supplier\nRio Tinto has finalised its $US6.7 billion ($10.5 billion) acquisition of Arcadium Lithium, positioning the company as a leading lithium supplier. Following approval from the Royal Court of Jersey, Rio Tinto is now the parent company of Arcadium, which will be renamed to Rio Tinto Lithium. Arcadium has been delisted from the ASX and New York Stock Exchange. Backed by one of the world’s largest lithium resource bases, Rio Tinto Lithium aims to grow the capacity of its Tier 1 assets to over 200,000 tonnes of lithium carbonate equivalent per annum by 2028. “Today we are delighted to welcome the employees of Arcadium to Rio Tinto,” Rio Tinto chief executive officer Jakob Stausholm said.",
+        "num_sentences": 5,
+        "acquisition_info": {
+          "article_id": 7,
+          "parent_company": "Rio Tinto",
+          "parent_company_ticker": null,
+          "child_company": "Arcadium Lithium",
+          "child_company_ticker": null,
+          "deal_amount": "6.7 billion",
+          "deal_currency": "USD",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "text": "Pilbara Minerals open to ‘great’ acquisition opportunities\nPilbara Minerals, Australia’s biggest independent lithium producer, said on Wednesday it is looking at acquisitions to grow but putting money back into existing assets would come first. “We are considering and looking at inorganic growth opportunities but we’re in no rush and we won’t grow for growth’s sake but if there’s a great opportunity … we’re up for that,” CEO Dale Henderson said during the Macquarie Australia Conference. Pilbara Minerals hired an M&A banker as its chief development officer around a year ago, saying at the time it was in the very early stages of considering acquisitions for growth. Since then, lithium prices have bottomed, while BHP’s $39 billion offer for Anglo American has underscored keen interest on the part of miners in boosting exposure to metals critical to the energy transition. That said, Australia’s mining barons Gina Rinehart and Chris Ellison have snapped up blocking stakes in many of the country’s promising lithium developers, making the domestic landscape for consolidation more complex.",
+        "article_id": 8,
+        "expected_output": {
+          "article_id": 8,
+          "article_type": "other"
+        }
+      }
+    ],
+    "signature": {
+      "instructions": "Extract acquisition information about companies from the given text.",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "${text}"
+        },
+        {
+          "prefix": "Acquisition Info:",
+          "description": "${acquisition_info}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.0.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

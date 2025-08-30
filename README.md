@@ -33,18 +33,14 @@ uv run extract.py --limit 5
 # Process all 12 articles
 uv run extract.py
 
-# Evaluate existing predictions by specifying a result output file
-uv run evaluate.py -o output.json
+# Evaluate the module
+uv run evaluate.py
 
 # Run optimization experiment
 uv run optimize.py
-```
 
-Once the optimized module is available and persisted to disk, you can reload it and run the improved
-module using the fourth script:
-
-```bash
-uv run optimized_extract.py
+# Evaluate the optimized module by pointing to the locally saved file
+uv run evaluate.py -m optimized_module.json
 ```
 
 This outputs the new result to the file `new_outputs.json`, which can then be run through the evaluation
@@ -128,5 +124,5 @@ Once the optimization process is complete and the new output has been generated,
 the evaluation to see if the results have improved:
 
 ```bash
-uv run evaluate.py -o new_output.json
+uv run evaluate.py -m optimized_module.json
 ```

@@ -51,13 +51,9 @@ def extract_first_n_sentences(text: str, num_sentences: int = 3) -> str:
 class Merger(BaseModel):
     article_id: int | None = Field(default=None)
     company_1: str | None = Field(description="First company in the merger")
-    company_1_ticker: list[str] | None = Field(
-        description="Stock ticker of first company"
-    )
+    company_1_ticker: list[str] | None = Field(description="Stock ticker of first company")
     company_2: str | None = Field(description="Second company in the merger")
-    company_2_ticker: list[str] | None = Field(
-        description="Stock ticker of second company"
-    )
+    company_2_ticker: list[str] | None = Field(description="Stock ticker of second company")
     merged_entity: str | None = Field(description="Name of merged entity")
     deal_amount: str | None = Field(description="Total monetary amount of the deal")
     deal_currency: Literal["USD", "CAD", "AUD", "Unknown"] = Field(
@@ -69,13 +65,9 @@ class Merger(BaseModel):
 class Acquisition(BaseModel):
     article_id: int | None = Field(default=None)
     parent_company: str | None = Field(description="Parent company in the acquisition")
-    parent_company_ticker: list[str] | None = Field(
-        description="Stock ticker of parent company"
-    )
+    parent_company_ticker: list[str] | None = Field(description="Stock ticker of parent company")
     child_company: str | None = Field(description="Child company in the acquisition")
-    child_company_ticker: list[str] | None = Field(
-        description="Stock ticker of child company"
-    )
+    child_company_ticker: list[str] | None = Field(description="Stock ticker of child company")
     deal_amount: str | None = Field(description="Total monetary amount of the deal")
     deal_currency: Literal["USD", "CAD", "AUD", "Unknown"] = Field(
         description="Currency of the acquisition deal"
@@ -169,9 +161,7 @@ def run_sync(data_path: Path, limit: int) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--limit", "-l", type=int, default=15, help="Number of articles to process"
-    )
+    parser.add_argument("--limit", "-l", type=int, default=15, help="Number of articles to process")
     args = parser.parse_args()
 
     data_path = Path("./data")

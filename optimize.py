@@ -30,4 +30,4 @@ train_set = examples[:marker_id]
 optimizer = dspy.BootstrapFewShot(metric=validate_with_metric, max_bootstrapped_demos=8, max_rounds=4)
 optimized_extract = optimizer.compile(baseline_extract, trainset=train_set)
 # Save path for optimized module
-optimized_extract.save("./optimized_extract.json")
+optimized_extract.save("./optimized_module.json")

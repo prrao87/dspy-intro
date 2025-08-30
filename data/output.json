@@ -3,15 +3,13 @@
     "article_id": 1,
     "company_1": "Sayona Mining",
     "company_1_ticker": [
-      "SYA"
+      "ASX"
     ],
     "company_2": "Piedmont Lithium",
-    "company_2_ticker": [
-      "PLL"
-    ],
+    "company_2_ticker": [],
     "merged_entity": "Elevra Lithium",
     "deal_amount": null,
-    "deal_currency": "Unknown",
+    "deal_currency": "USD",
     "article_type": "merger"
   },
   {
@@ -20,8 +18,8 @@
     "parent_company_ticker": [],
     "child_company": "Pretium Resources",
     "child_company_ticker": [],
-    "deal_amount": "2.8bn",
-    "deal_currency": "USD",
+    "deal_amount": "C$3.5bn",
+    "deal_currency": "CAD",
     "article_type": "acquisition"
   },
   {
@@ -62,12 +60,9 @@
   {
     "article_id": 7,
     "parent_company": "Rio Tinto",
-    "parent_company_ticker": null,
+    "parent_company_ticker": [],
     "child_company": "Arcadium Lithium",
-    "child_company_ticker": [
-      "ASX",
-      "New York Stock Exchange"
-    ],
+    "child_company_ticker": [],
     "deal_amount": "6.7 billion",
     "deal_currency": "USD",
     "article_type": "acquisition"
@@ -78,7 +73,7 @@
     "parent_company_ticker": [],
     "child_company": "Anglo American",
     "child_company_ticker": [],
-    "deal_amount": "39 billion",
+    "deal_amount": "$39 billion",
     "deal_currency": "USD",
     "article_type": "acquisition"
   },

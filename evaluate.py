@@ -67,13 +67,18 @@ def metric(gold_val, pred_val, trace=None):  # trace unused but required for DSP
 # --- For live evaluation (running dspy.Evaluate and making new LM calls) ---
 
 
-def create_dspy_examples(data_path: Path = Path("./data"), num_sentences: int = 5):
+def create_dspy_examples(
+    data_path: Path = Path("./data"),
+    num_sentences: int = 5,
+    article_ids: list[int] | None = None,
+):
     """
     Create dspy.Example objects from articles.json and gold.json.
 
     Args:
         data_path: Path to the data directory containing articles.json and gold.json
         num_sentences: Number of sentences to include from article content (default: 5)
+        article_ids: Optional list of article IDs to filter on. If None, includes all articles.
 
     Returns:
         List of dspy.Example objects with text input and expected Pydantic model output
@@ -88,6 +93,10 @@ def create_dspy_examples(data_path: Path = Path("./data"), num_sentences: int = 
     examples = []
     for article in articles:
         article_id = article["id"]
+
+        # Skip if article_id not in our filter list
+        if article_ids and article_id not in article_ids:
+            continue
 
         # Skip if no gold data available for this article
         if article_id not in gold_by_id:
@@ -154,10 +163,15 @@ def run_evaluation(
     # Configure DSPy
     dspy.configure(lm=lm, adapter=BAMLAdapter())
 
-    # Create examples from gold data
-    examples = create_dspy_examples(data_path, num_sentences)
+    # Create examples from gold data - filter to test set (13-22) by default
+    test_article_ids = list(range(13, 23))
+    examples = create_dspy_examples(
+        data_path, num_sentences, article_ids=test_article_ids
+    )
     examples = examples[:limit]
-    print(f"\nLoaded {len(examples)} examples for evaluation")
+    print(
+        f"\nLoaded {len(examples)} examples for evaluation (test set: articles 13-22)"
+    )
 
     # Initialize Extract module (base or optimized)
     extract_module = Extract()
@@ -292,7 +306,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.module:
-        print(f"Running DSPy evaluation with user-specified saved module: {args.module}")
+        print(
+            f"Running DSPy evaluation with user-specified saved module: {args.module}"
+        )
 
     run_evaluation(
         data_path=args.data_path,

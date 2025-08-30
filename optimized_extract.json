@@ -15,11 +15,6 @@
       },
       {
         "augmented": true,
-        "text": "Why Gold Road rejected Gold Fields’ $3.3bn takeover bid\nGold Road Resources has rejected an unsolicited takeover proposal from Gold Fields, its 50:50 joint venture partner for the Gruyere gold mine in Western Australia. The offer was received on March 7 and, if accepted, would have involved Gold Fields acquiring 100 per cent of the shares on issue in Gold Road via a scheme of arrangement for $3.05 per share, valuing Gold Road at $3.3 billion. This offer comprised $2.27 cash per share and a variable portion equal to the value of Gold Road’s shareholding in De Grey Mining.",
-        "article_type": "other"
-      },
-      {
-        "augmented": true,
         "text": "Karora says ‘yes’ to $3.4b Westgold merger\nKarora Resources shareholders have almost unanimously voted in favour of the company’s merger with Westgold. Over 99 per cent of votes recorded approved the merger, which will see Westgold takes its place as a top five Australian gold producer. Toronto-based Karora chair and chief executive officer Pail Andre Huet announced the company’s approval late last week.“The approval by approximately 99 per cent of the votes cast on the resolutions regarding the proposed merger transaction with Westgold Resources, along with receipt of Foreign Investment Review Board approval, represent two important milestones towards the closing of this transaction,” he said.“We thank Karora shareholders for their overwhelming support of the combination of Westgold and Karora to create a dual ASX and TSX listed top five Australian gold producer.”Westgold managing director and chief executive officer Wayne Bramwell thanked Karora shareholders for their support.“The overwhelming support for this merger shown by Karora shareholders confirms the independently verified value and the compelling commercial rationale behind this transaction,” he said.“With the integration of the Karora assets, the expanded Westgold will have strategic footprints across two of Western Australia’s most prolific goldfields.“With the integration of the Karora team we create an agile Australian gold mining powerhouse that is focused on free cash generation and shareholder returns.”All that’s remains now is for Westgold to obtain a final order from the Ontario Superior Court of Justice, the hearing for which is expected on July 24.",
         "article_type": "merger"
       },
@@ -37,6 +32,57 @@
         "augmented": true,
         "text": "Meet the world’s third largest lithium supplier\nRio Tinto has finalised its $US6.7 billion ($10.5 billion) acquisition of Arcadium Lithium, positioning the company as a leading lithium supplier. Following approval from the Royal Court of Jersey, Rio Tinto is now the parent company of Arcadium, which will be renamed to Rio Tinto Lithium. Arcadium has been delisted from the ASX and New York Stock Exchange.",
         "article_type": "acquisition"
+      },
+      {
+        "augmented": true,
+        "text": "Equinox Gold to buy Calibre for $2.56B\nEquinox Gold (TSX: EQX; NYSE-A: EQX) agreed to buy Calibre Mining (TSX: CXB) for about $2.56bn in stock to become Canada’s second-largest gold producer. Calibre shareholders will receive 0.31 Equinox common share for each Calibre common share held immediately before the transaction, according to a joint statement issued Sunday. At closing, existing Equinox shareholders would own about 65% of the combined company’s outstanding shares, compared with 35% for their Calibre counterparts.",
+        "article_type": "merger"
+      },
+      {
+        "augmented": true,
+        "text": "Newmont officially acquires Newcrest\nNewmont has completed its acquisition of Newcrest Mining Limited with the aim of creating a world-leading gold miner. Now featuring more than half of the world’s Tier-1 assets, Newmont said its portfolio of long-life operations, value-accretive projects, exploration opportunities, and world-class talent will underpin years of profitable production. “Today marks a historic milestone in our company and the industry with the successful completion of this transformational acquisition of Newcrest by Newmont,” Newmont president and chief executive officer Tom Palmer said.",
+        "article_type": "acquisition"
+      },
+      {
+        "text": "Rock Tech, Arcore to merge subsidiaries to form integrated lithium company\nCanadian miner Rock Tech Lithium has signed a binding business combination agreement with Swiss junior mining company Arcore to merge their subsidiaries and establish a new European entity named NewCo. Upon completion of the transaction, Rock Tech will transfer the shares of its fully owned subsidiary, Rock Tech Guben, to NewCo in exchange for a 75% stake in NewCo’s registered share capital. Arcore will contribute the shares of its wholly owned subsidiary, AR CORE, to NewCo and receive a 25% stake in NewCo’s registered share capital. This strategic move aims to reduce Europe’s dependence on other regions for critical battery raw materials and create a reliable battery materials supply chain. NewCo’s core assets will include Rock Tech’s fully permitted lithium converter in Guben, Germany, and Arcore’s lithium-boron-magnesium mining project in Lopare, Bosnia-Herzegovina, which contains an estimated 600,000 tonnes of lithium carbonate equivalent.",
+        "article_id": 12,
+        "expected_output": {
+          "article_id": 12,
+          "company_1": "Rock Tech Lithium",
+          "company_1_ticker": [],
+          "company_2": "Arcore",
+          "company_2_ticker": [],
+          "merged_entity": "NewCo",
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "merger"
+        }
+      },
+      {
+        "text": "Why Gold Road rejected Gold Fields’ $3.3bn takeover bid\nGold Road Resources has rejected an unsolicited takeover proposal from Gold Fields, its 50:50 joint venture partner for the Gruyere gold mine in Western Australia. The offer was received on March 7 and, if accepted, would have involved Gold Fields acquiring 100 per cent of the shares on issue in Gold Road via a scheme of arrangement for $3.05 per share, valuing Gold Road at $3.3 billion. This offer comprised $2.27 cash per share and a variable portion equal to the value of Gold Road’s shareholding in De Grey Mining. De Grey is soon set to be acquired by Northern Star Resources for $5 billion. Gold Fields’ proposal would have consolidated its ownership of Gruyere, of which it is currently manager.",
+        "article_id": 3,
+        "expected_output": {
+          "article_id": 3,
+          "article_type": "other"
+        }
+      },
+      {
+        "text": "Salinas Project renamed as Pilbara Minerals completes Latin acquisition\nPilbara Minerals (ASX:PLS) has completed its acquisition of Latin Resources (ASX:LRS) by way of an all-share and option schemes of arrangement  The company yesterday (4 February) issued just over 205.5 million new shares to Latin Resources shareholders, and the appointed sale agent, representing 6.4% of Pilbara’s shares on issue. The completion of the acquisition of Latin Resources and its flagship Salinas Project is consistent with Pilbara Minerals’ strategy to grow and diversify revenues beyond Pilgangoora, the acquirer says. With the transaction complete, the Salinas Project will be renamed the Colina Project. Pilbara Minerals CEO Dale Henderson Latin’s Salinas Project has the potential to become a leading hard rock lithium operation by production globally, located in the world-class mining jurisdiction of Minas Gerais, Brazil, with development flexibility to supply new markets (subject to market conditions). “We are excited by the opportunities ahead at our Colina Project in Brazil.",
+        "article_id": 11,
+        "expected_output": {
+          "article_id": 11,
+          "parent_company": "Pilbara Minerals",
+          "parent_company_ticker": [
+            "ASX:PLS"
+          ],
+          "child_company": "Latin Resources",
+          "child_company_ticker": [
+            "ASX:LRS"
+          ],
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "acquisition"
+        }
       },
       {
         "text": "Pilbara Minerals open to ‘great’ acquisition opportunities\nPilbara Minerals, Australia’s biggest independent lithium producer, said on Wednesday it is looking at acquisitions to grow but putting money back into existing assets would come first. “We are considering and looking at inorganic growth opportunities but we’re in no rush and we won’t grow for growth’s sake but if there’s a great opportunity … we’re up for that,” CEO Dale Henderson said during the Macquarie Australia Conference. Pilbara Minerals hired an M&A banker as its chief development officer around a year ago, saying at the time it was in the very early stages of considering acquisitions for growth. Since then, lithium prices have bottomed, while BHP’s $39 billion offer for Anglo American has underscored keen interest on the part of miners in boosting exposure to metals critical to the energy transition. That said, Australia’s mining barons Gina Rinehart and Chris Ellison have snapped up blocking stakes in many of the country’s promising lithium developers, making the domestic landscape for consolidation more complex.",
@@ -77,7 +123,7 @@
             "ASX"
           ],
           "company_2": "Piedmont Lithium",
-          "company_2_ticker": null,
+          "company_2_ticker": [],
           "merged_entity": "Elevra Lithium",
           "deal_amount": null,
           "deal_currency": "Unknown",
@@ -92,11 +138,31 @@
           "article_id": 4,
           "company_1": "Karora Resources",
           "company_1_ticker": [],
-          "company_2": "Westgold",
+          "company_2": "Westgold Resources",
           "company_2_ticker": [],
+          "merged_entity": "Westgold",
+          "deal_amount": "3.4",
+          "deal_currency": "AUD",
+          "article_type": "merger"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Equinox Gold to buy Calibre for $2.56B\nEquinox Gold (TSX: EQX; NYSE-A: EQX) agreed to buy Calibre Mining (TSX: CXB) for about $2.56bn in stock to become Canada’s second-largest gold producer. Calibre shareholders will receive 0.31 Equinox common share for each Calibre common share held immediately before the transaction, according to a joint statement issued Sunday. At closing, existing Equinox shareholders would own about 65% of the combined company’s outstanding shares, compared with 35% for their Calibre counterparts. The deal, which is expected to close in the second quarter, sets the stage for the creation of a Canadian mining powerhouse with two low-cost assets under the same roof – Equinox’s Greenstone property in Ontario, which achieved commercial production in November and is one of the country’s largest open-pit mines; and Calibre’s Valentine mine, which is nearing construction completion. First gold pour at Valentine is currently targeted for mid-2025.",
+        "num_sentences": 5,
+        "merger_info": {
+          "article_id": 9,
+          "company_1": "Equinox Gold",
+          "company_1_ticker": [
+            "EQX"
+          ],
+          "company_2": "Calibre Mining",
+          "company_2_ticker": [
+            "CXB"
+          ],
           "merged_entity": null,
-          "deal_amount": "3.4b",
-          "deal_currency": "Unknown",
+          "deal_amount": "2.56B",
+          "deal_currency": "USD",
           "article_type": "merger"
         }
       },
@@ -106,6 +172,47 @@
         "expected_output": {
           "article_id": 8,
           "article_type": "other"
+        }
+      },
+      {
+        "text": "Why Gold Road rejected Gold Fields’ $3.3bn takeover bid\nGold Road Resources has rejected an unsolicited takeover proposal from Gold Fields, its 50:50 joint venture partner for the Gruyere gold mine in Western Australia. The offer was received on March 7 and, if accepted, would have involved Gold Fields acquiring 100 per cent of the shares on issue in Gold Road via a scheme of arrangement for $3.05 per share, valuing Gold Road at $3.3 billion. This offer comprised $2.27 cash per share and a variable portion equal to the value of Gold Road’s shareholding in De Grey Mining. De Grey is soon set to be acquired by Northern Star Resources for $5 billion. Gold Fields’ proposal would have consolidated its ownership of Gruyere, of which it is currently manager.",
+        "article_id": 3,
+        "expected_output": {
+          "article_id": 3,
+          "article_type": "other"
+        }
+      },
+      {
+        "text": "Salinas Project renamed as Pilbara Minerals completes Latin acquisition\nPilbara Minerals (ASX:PLS) has completed its acquisition of Latin Resources (ASX:LRS) by way of an all-share and option schemes of arrangement  The company yesterday (4 February) issued just over 205.5 million new shares to Latin Resources shareholders, and the appointed sale agent, representing 6.4% of Pilbara’s shares on issue. The completion of the acquisition of Latin Resources and its flagship Salinas Project is consistent with Pilbara Minerals’ strategy to grow and diversify revenues beyond Pilgangoora, the acquirer says. With the transaction complete, the Salinas Project will be renamed the Colina Project. Pilbara Minerals CEO Dale Henderson Latin’s Salinas Project has the potential to become a leading hard rock lithium operation by production globally, located in the world-class mining jurisdiction of Minas Gerais, Brazil, with development flexibility to supply new markets (subject to market conditions). “We are excited by the opportunities ahead at our Colina Project in Brazil.",
+        "article_id": 11,
+        "expected_output": {
+          "article_id": 11,
+          "parent_company": "Pilbara Minerals",
+          "parent_company_ticker": [
+            "ASX:PLS"
+          ],
+          "child_company": "Latin Resources",
+          "child_company_ticker": [
+            "ASX:LRS"
+          ],
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "text": "Rock Tech, Arcore to merge subsidiaries to form integrated lithium company\nCanadian miner Rock Tech Lithium has signed a binding business combination agreement with Swiss junior mining company Arcore to merge their subsidiaries and establish a new European entity named NewCo. Upon completion of the transaction, Rock Tech will transfer the shares of its fully owned subsidiary, Rock Tech Guben, to NewCo in exchange for a 75% stake in NewCo’s registered share capital. Arcore will contribute the shares of its wholly owned subsidiary, AR CORE, to NewCo and receive a 25% stake in NewCo’s registered share capital. This strategic move aims to reduce Europe’s dependence on other regions for critical battery raw materials and create a reliable battery materials supply chain. NewCo’s core assets will include Rock Tech’s fully permitted lithium converter in Guben, Germany, and Arcore’s lithium-boron-magnesium mining project in Lopare, Bosnia-Herzegovina, which contains an estimated 600,000 tonnes of lithium carbonate equivalent.",
+        "article_id": 12,
+        "expected_output": {
+          "article_id": 12,
+          "company_1": "Rock Tech Lithium",
+          "company_1_ticker": [],
+          "company_2": "Arcore",
+          "company_2_ticker": [],
+          "merged_entity": "NewCo",
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "merger"
         }
       }
     ],
@@ -135,10 +242,10 @@
         "acquisition_info": {
           "article_id": 2,
           "parent_company": "Newcrest Mining",
-          "parent_company_ticker": [],
+          "parent_company_ticker": null,
           "child_company": "Pretium Resources",
-          "child_company_ticker": [],
-          "deal_amount": "2.8bn",
+          "child_company_ticker": null,
+          "deal_amount": "2.8",
           "deal_currency": "USD",
           "article_type": "acquisition"
         }
@@ -150,11 +257,11 @@
         "acquisition_info": {
           "article_id": 5,
           "parent_company": "Ramelius Resources",
-          "parent_company_ticker": [],
+          "parent_company_ticker": null,
           "child_company": "Spartan Resources",
-          "child_company_ticker": [],
-          "deal_amount": "$2.4bn",
-          "deal_currency": "USD",
+          "child_company_ticker": null,
+          "deal_amount": "2.4",
+          "deal_currency": "AUD",
           "article_type": "acquisition"
         }
       },
@@ -165,11 +272,11 @@
         "acquisition_info": {
           "article_id": 6,
           "parent_company": "Northern Star Resources",
-          "parent_company_ticker": [],
+          "parent_company_ticker": null,
           "child_company": "De Grey Mining",
-          "child_company_ticker": [],
-          "deal_amount": "$5 billion",
-          "deal_currency": "USD",
+          "child_company_ticker": null,
+          "deal_amount": "5000000000",
+          "deal_currency": "AUD",
           "article_type": "acquisition"
         }
       },
@@ -182,10 +289,61 @@
           "parent_company": "Rio Tinto",
           "parent_company_ticker": null,
           "child_company": "Arcadium Lithium",
-          "child_company_ticker": null,
-          "deal_amount": "6.7 billion",
+          "child_company_ticker": [
+            "ASX",
+            "New York Stock Exchange"
+          ],
+          "deal_amount": "6.7",
           "deal_currency": "USD",
           "article_type": "acquisition"
+        }
+      },
+      {
+        "augmented": true,
+        "text": "Newmont officially acquires Newcrest\nNewmont has completed its acquisition of Newcrest Mining Limited with the aim of creating a world-leading gold miner. Now featuring more than half of the world’s Tier-1 assets, Newmont said its portfolio of long-life operations, value-accretive projects, exploration opportunities, and world-class talent will underpin years of profitable production. “Today marks a historic milestone in our company and the industry with the successful completion of this transformational acquisition of Newcrest by Newmont,” Newmont president and chief executive officer Tom Palmer said. “Our attention now turns to safely, efficiently, and responsibly integrating Newcrest’s assets and people into Newmont’s proven operating model, so we can accelerate the delivery of our value-focused strategy for all our stakeholders.”  With the transaction now complete, the acquisition is expected to strengthen Newmont’s position as a responsible gold mining leader through the combination of high-quality operations, projects and reserves concentrated in low-risk jurisdictions, including 10 Tier-1 operations. The deal is expected to generate annual pre-tax synergies of $500 million, slated to be achieved within the first 24 months, together with at least $2 billion in cash improvements through portfolio optimisation in the first two years.",
+        "num_sentences": 5,
+        "acquisition_info": {
+          "article_id": 10,
+          "parent_company": "Newmont",
+          "parent_company_ticker": null,
+          "child_company": "Newcrest Mining Limited",
+          "child_company_ticker": null,
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "text": "Salinas Project renamed as Pilbara Minerals completes Latin acquisition\nPilbara Minerals (ASX:PLS) has completed its acquisition of Latin Resources (ASX:LRS) by way of an all-share and option schemes of arrangement  The company yesterday (4 February) issued just over 205.5 million new shares to Latin Resources shareholders, and the appointed sale agent, representing 6.4% of Pilbara’s shares on issue. The completion of the acquisition of Latin Resources and its flagship Salinas Project is consistent with Pilbara Minerals’ strategy to grow and diversify revenues beyond Pilgangoora, the acquirer says. With the transaction complete, the Salinas Project will be renamed the Colina Project. Pilbara Minerals CEO Dale Henderson Latin’s Salinas Project has the potential to become a leading hard rock lithium operation by production globally, located in the world-class mining jurisdiction of Minas Gerais, Brazil, with development flexibility to supply new markets (subject to market conditions). “We are excited by the opportunities ahead at our Colina Project in Brazil.",
+        "article_id": 11,
+        "expected_output": {
+          "article_id": 11,
+          "parent_company": "Pilbara Minerals",
+          "parent_company_ticker": [
+            "ASX:PLS"
+          ],
+          "child_company": "Latin Resources",
+          "child_company_ticker": [
+            "ASX:LRS"
+          ],
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "acquisition"
+        }
+      },
+      {
+        "text": "Rock Tech, Arcore to merge subsidiaries to form integrated lithium company\nCanadian miner Rock Tech Lithium has signed a binding business combination agreement with Swiss junior mining company Arcore to merge their subsidiaries and establish a new European entity named NewCo. Upon completion of the transaction, Rock Tech will transfer the shares of its fully owned subsidiary, Rock Tech Guben, to NewCo in exchange for a 75% stake in NewCo’s registered share capital. Arcore will contribute the shares of its wholly owned subsidiary, AR CORE, to NewCo and receive a 25% stake in NewCo’s registered share capital. This strategic move aims to reduce Europe’s dependence on other regions for critical battery raw materials and create a reliable battery materials supply chain. NewCo’s core assets will include Rock Tech’s fully permitted lithium converter in Guben, Germany, and Arcore’s lithium-boron-magnesium mining project in Lopare, Bosnia-Herzegovina, which contains an estimated 600,000 tonnes of lithium carbonate equivalent.",
+        "article_id": 12,
+        "expected_output": {
+          "article_id": 12,
+          "company_1": "Rock Tech Lithium",
+          "company_1_ticker": [],
+          "company_2": "Arcore",
+          "company_2_ticker": [],
+          "merged_entity": "NewCo",
+          "deal_amount": null,
+          "deal_currency": "Unknown",
+          "article_type": "merger"
         }
       },
       {
@@ -193,6 +351,14 @@
         "article_id": 8,
         "expected_output": {
           "article_id": 8,
+          "article_type": "other"
+        }
+      },
+      {
+        "text": "Why Gold Road rejected Gold Fields’ $3.3bn takeover bid\nGold Road Resources has rejected an unsolicited takeover proposal from Gold Fields, its 50:50 joint venture partner for the Gruyere gold mine in Western Australia. The offer was received on March 7 and, if accepted, would have involved Gold Fields acquiring 100 per cent of the shares on issue in Gold Road via a scheme of arrangement for $3.05 per share, valuing Gold Road at $3.3 billion. This offer comprised $2.27 cash per share and a variable portion equal to the value of Gold Road’s shareholding in De Grey Mining. De Grey is soon set to be acquired by Northern Star Resources for $5 billion. Gold Fields’ proposal would have consolidated its ownership of Gruyere, of which it is currently manager.",
+        "article_id": 3,
+        "expected_output": {
+          "article_id": 3,
           "article_type": "other"
         }
       }

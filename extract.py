@@ -13,11 +13,10 @@ from pydantic import BaseModel, Field
 load_dotenv()
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
-MODEL_NAME = os.environ.get("MODEL_NAME", "openrouter/google/gemini-2.0-flash-001")
 
 # Using OpenRouter. Switch to another LLM provider as needed
 lm = dspy.LM(
-    model=MODEL_NAME,
+    model="openrouter/google/gemini-2.5-flash-lite",
     api_base="https://openrouter.ai/api/v1",
     api_key=OPENROUTER_API_KEY,
 )
@@ -161,7 +160,9 @@ def run_sync(data_path: Path, limit: int) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", "-l", type=int, default=15, help="Number of articles to process")
+    parser.add_argument(
+        "--limit", "-l", type=int, default=1000, help="Number of articles to process"
+    )
     args = parser.parse_args()
 
     data_path = Path("./data")

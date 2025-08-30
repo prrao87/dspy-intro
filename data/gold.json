@@ -122,5 +122,90 @@
     "deal_amount": null,
     "deal_currency": "Unknown",
     "article_type": "merger"
+  },
+  {
+    "article_id": 13,
+    "parent_company": "Titanium Corp",
+    "parent_company_ticker": ["TSX: TCP"],
+    "child_company": "Azure Mining",
+    "child_company_ticker": ["TSX: AZM", "NYSE-A: AZZ"],
+    "deal_amount": "4.2 billion",
+    "deal_currency": "CAD",
+    "article_type": "acquisition"
+  },
+  {
+    "article_id": 14,
+    "company_1": "Phoenix Resources",
+    "company_1_ticker": null,
+    "company_2": "Quantum Mining",
+    "company_2_ticker": null,
+    "merged_entity": "Phoenix Resources",
+    "deal_amount": "2.8 billion",
+    "deal_currency": "AUD",
+    "article_type": "merger"
+  },
+  {
+    "article_id": 15,
+    "article_type": "other"
+  },
+  {
+    "article_id": 16,
+    "article_type": "other"
+  },
+  {
+    "article_id": 17,
+    "parent_company": "European Wave Mining",
+    "parent_company_ticker": null,
+    "child_company": "Silverstone Resources",
+    "child_company_ticker": null,
+    "deal_amount": "3.6 billion",
+    "deal_currency": "CAD",
+    "article_type": "acquisition"
+  },
+  {
+    "article_id": 18,
+    "company_1": "Copper Valley Mining",
+    "company_1_ticker": ["NYSE-A: CVMI"],
+    "company_2": "Mountain Ridge Resources",
+    "company_2_ticker": ["NYSE-A: MORR"],
+    "merged_entity": "Valley Ridge Mining",
+    "deal_amount": "1.5 billion",
+    "deal_currency": "USD",
+    "article_type": "merger"
+  },
+  {
+    "article_id": 19,
+    "parent_company": "Global Resources Corporation",
+    "parent_company_ticker": null,
+    "child_company": "Frontier Mining Limited",
+    "child_company_ticker": null,
+    "deal_amount": "920 million",
+    "deal_currency": "USD",
+    "article_type": "acquisition"
+  },
+  {
+    "article_id": 20,
+    "company_1": "Atlas Mining Corporation",
+    "company_1_ticker": null,
+    "company_2": "Pacific Metals",
+    "company_2_ticker": null,
+    "merged_entity": "Atlas Pacific Mining",
+    "deal_amount": "3.1 billion",
+    "deal_currency": "USD",
+    "article_type": "merger"
+  },
+  {
+    "article_id": 21,
+    "article_type": "other"
+  },
+  {
+    "article_id": 22,
+    "parent_company": "Dynasty Mining",
+    "parent_company_ticker": [],
+    "child_company": "Explorer Resources",
+    "child_company_ticker": [],
+    "deal_amount": "1.8 billion",
+    "deal_currency": "AUD",
+    "article_type": "acquisition"
   }
 ]
